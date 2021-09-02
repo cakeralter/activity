@@ -1,0 +1,21 @@
+# 应用名称
+spring:
+  application:
+    name: activity-interfaces
+  profiles:
+    active: dev
+server:
+  servlet:
+    context-path: /activity
+  port: 9199
+
+# log
+logging:
+  file:
+    name: /usr/local/project/docker/activity/logs/app.log
+
+# arthas
+arthas:
+  http-port: 8563
+  session-timeout: 1800
+  ip: 0.0.0.0

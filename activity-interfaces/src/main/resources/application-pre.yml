@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.18.0.1/activity?useSSL=false&serverTimezone=utc
+    username: root
+    password: mysql2020
