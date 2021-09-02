@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://81.69.255.167/activity?useSSL=false&serverTimezone=utc
+    url: jdbc:mysql://81.69.255.167/activity?useSSL=false&serverTimezone=UTC
     username: root
     password: mysql2020
