@@ -12,7 +12,7 @@ server:
 # log
 logging:
   file:
-    name: /usr/local/project/docker/activity/logs/app.log
+    name: /home/app/logs/app.log
 
 # arthas
 arthas:
