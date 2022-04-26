@@ -19,7 +19,7 @@
         <module>activity-common</module>
         <module>activity-domain</module>
         <module>activity-infrastructure</module>
-        <module>activity-interfaces</module>
+        <module>activity-interface</module>
         <module>activity-rpc</module>
     </modules>
 

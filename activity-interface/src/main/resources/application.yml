@@ -1,7 +1,7 @@
 # 应用名称
 spring:
   application:
-    name: activity-interfaces
+    name: activity-interface
   profiles:
     active: dev
 server:
@@ -12,13 +12,12 @@ server:
 # log
 logging:
   file:
-    name: /home/app/logs/app.log
+    path: /home/app/logs/activity
 
 # arthas
 arthas:
-  http-port: 8563
-  session-timeout: 1800
-  ip: 0.0.0.0
+  agent-id: 6qXobHvLhFyRcNZk
+  tunnel-server: ws://139.155.183.87:7777/ws
 
 # actuator
 management:
